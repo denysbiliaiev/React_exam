@@ -5,4 +5,35 @@
         padding-top: 100px;
         text-align: center;
     }
+
+    .avatar {
+        width: 33px;
+        height: 33px;
+    }
+
+    .font {
+        font-family: Lato;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        color: #ffffff;
+    }
+
+    .font_normal_size_24 {
+        @extend .font;
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .font_normal_size_17 {
+        @extend .font;
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    .font_gray {
+        @extend .font;
+        color: #72848b;
+    }
 }
